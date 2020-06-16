@@ -1,12 +1,18 @@
 ## Radar-SensorfusionND
 Radar target generation and detection:
-- This is the 4th project as part of the Udacity's Sensor fusion nano degree program with Radar sensor. 
+ This is the 4th project as part of the Udacity's Sensor fusion nano degree program with Radar sensor. 
+![summary of results](http://url/to/img.png)
+
 
 **Summary of the results and observations:**
-- 2D CFAR dynamic threshold works well, for removing the noise 
-- The object is detected at the correct location, 100m  away without noise.
-- Velocity in the doppler map is not accurate but is almost centered with correct value. 
-- Velocity doppler map is spread across multiple values with an accuracy of ~+-10 m/s centered around 50 m/s
+- FMCW Waveform Design as per given specification 
+- Simulation Loop to generate the mix signal after receiving the reflected signal
+- Detection of target at almost the right location using Range FFT (1st FFT) 
+- Doppler  FFT (2nd FFT) (was already implemented)
+- Calculated 2D CFAR dynamic threshold for removing the noise 
+- in 2D CFAR The object is detected at the correct location, 100m away without noise.
+- Velocity in the doppler map is not accurate but is almost centered with correct value 
+- Velocity doppler map is spread across a range of values with an accuracy of ~+-10 m/s centered around 50 m/s
 
 
 **Implementation steps for the 2D CFAR process:**

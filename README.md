@@ -1,8 +1,6 @@
 ## Radar-SensorfusionND
 Radar target generation and detection:
- This is the 4th project as part of the Udacity's Sensor fusion nano degree program with Radar sensor. 
-![summary of results](http://url/to/img.png)
-
+- This is the 4th project as part of the Udacity's Sensor fusion nano degree program with Radar sensor. 
 
 **Summary of the results and observations:**
 - FMCW Waveform Design as per given specification 
@@ -53,3 +51,4 @@ Radar target generation and detection:
 **Steps taken to suppress the non-thresholded cells at the edges:**
 - The signal is initialized to zero first and only the thresholded values are allowed to pass through
 
+![summary of results](/results/summary.png)

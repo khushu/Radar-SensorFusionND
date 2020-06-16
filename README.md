@@ -51,4 +51,5 @@ Radar target generation and detection:
 **Steps taken to suppress the non-thresholded cells at the edges:**
 - The signal is initialized to zero first and only the thresholded values are allowed to pass through
 
-![summary of results](/results/summary.png)
+![summary](https://user-images.githubusercontent.com/2256139/84824618-15fcb800-afd5-11ea-8dd1-1942931a18a3.jpg)
+

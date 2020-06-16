@@ -1,6 +1,6 @@
 ## Radar-SensorfusionND
 Radar target generation and detection:
-This is the 4th project as part of the Udacity's Sensor fusion nano degree under Radar. 
+- This is the 4th project as part of the Udacity's Sensor fusion nano degree program with Radar sensor. 
 
 **Summary of the results and observations:**
 - 2D CFAR dynamic threshold works well, for removing the noise 

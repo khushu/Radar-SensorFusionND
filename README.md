@@ -2,7 +2,7 @@
 Radar target generation and detection:
 This is the 4th project as part of the Udacity's Sensor fusion nano degree under Radar. 
 
-Summary of the results:
+**Summary of the results and observations:**
 - 2D CFAR dynamic threshold works well, for removing the noise 
 - The object is detected at the correct location, 100m  away without noise.
 - Velocity in the doppler map is not accurate but is almost centered with correct value. 
